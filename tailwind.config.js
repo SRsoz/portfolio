@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        meieScript: ['"Meie Script"', 'cursive'],
+        khmer: ['"Konkhmer Sleokchher"', 'cursive'],
+      },
+      colors: {
+        greenAccent: "#46FFAF",
+      },  
+    },
   },
   plugins: [],
 }
