@@ -6,13 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        meieScript: ['"Meie Script"', 'cursive'],
-        khmer: ['"Konkhmer Sleokchher"', 'cursive'],
-      },
-      colors: {
-        greenAccent: "#46FFAF",
-      },  
+      fontFamily: {},
+      colors: {},  
     },
   },
   plugins: [],
