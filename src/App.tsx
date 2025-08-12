@@ -1,7 +1,12 @@
-export default function App() {
+import Layout from "./components/Layout";
+import './index.css';
+
+function App() {
   return (
-    <div className="text-3xl font-bold text-blue-500 p-8">
-      Hello Tailwind!
-    </div>
+    <Layout>
+    <h1></h1>
+    </Layout>
   );
 }
+
+export default App;
